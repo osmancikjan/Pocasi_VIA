@@ -1,0 +1,79 @@
+[{
+        "name_cs": "Praha",
+        "name_en": "Prague",
+        "lat": 50.0875,
+        "lng": 14.4213
+    },
+    {
+        "name_cs": "Plzeň",
+        "name_en": "Pilsen",
+        "lat": 49.7477,
+        "lng": 13.3775
+    },
+    {
+        "name_cs": "České Budějovice",
+        "name_en": "Ceske Budejovice",
+        "lat": 48.9742,
+        "lng": 14.4743
+    },
+    {
+        "name_cs": "Karlovy Vary",
+        "name_en": "Carlsbad",
+        "lat": 50.2327,
+        "lng": 12.8712
+    },
+    {
+        "name_cs": "Ústí nad Labem",
+        "name_en": "Usti nad Labem",
+        "lat": 50.6607,
+        "lng": 14.0323
+    },
+    {
+        "name_cs": "Liberec",
+        "name_en": "Liberec",
+        "lat": 50.7703,
+        "lng": 15.0584
+    },
+    {
+        "name_cs": "Hradec Kralove",
+        "name_en": "Hradec Kralove",
+        "lat": 50.2095,
+        "lng": 15.8327
+    },
+    {
+        "name_cs": "Pardubice",
+        "name_en": "Pardubice",
+        "lat": 50.041,
+        "lng": 15.7765
+    },
+    {
+        "name_cs": "Jihlava",
+        "name_en": "Jihlava",
+        "lat": 49.3961,
+        "lng": 15.5903
+    },
+    {
+        "name_cs": "Brno",
+        "name_en": "Brno",
+        "lat": 49.1922,
+        "lng": 16.5995
+    },
+    {
+        "name_cs": "Olomouc",
+        "name_en": "Olomouc",
+        "lat": 49.5941,
+        "lng": 17.2511
+    },
+    {
+        "name_cs": "Zlín",
+        "name_en": "Zlin",
+        "lat": 49.2267,
+        "lng": 17.6663
+    },
+    {
+        "name_cs": "Ostrava",
+        "name_en": "Ostrava",
+        "lat": 49.8349,
+        "lng": 18.282
+    }
+]
