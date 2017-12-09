@@ -6,7 +6,7 @@
     },
     {
         "name_cs": "Plzeň",
-        "name_en": "Pilsen",
+        "name_en": "Plzen",
         "lat": 49.7477,
         "lng": 13.3775
     },
@@ -18,7 +18,7 @@
     },
     {
         "name_cs": "Karlovy Vary",
-        "name_en": "Carlsbad",
+        "name_en": "Karlovy Vary",
         "lat": 50.2327,
         "lng": 12.8712
     },
@@ -35,7 +35,7 @@
         "lng": 15.0584
     },
     {
-        "name_cs": "Hradec Kralove",
+        "name_cs": "Hradec Králové",
         "name_en": "Hradec Kralove",
         "lat": 50.2095,
         "lng": 15.8327

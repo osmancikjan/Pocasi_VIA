@@ -7,11 +7,7 @@ and open the template in the editor.
     Created on : 6.12.2017, 19:06:13
     Author     : Honza
 */
-body {
-    margin: 0 auto;
-    align-content: center;
-}
-
-.card {
-    background-color: #002868;
+a{
+    text-decoration: none !important;
+    color: #BBB !important;
 }

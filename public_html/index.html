@@ -17,6 +17,8 @@ and open the template in the editor.
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js" ></script>
         <script src="js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script src="js/chart.js"></script>
         <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZaf0hmN0apNiXfoSbiZAeC1dt7OZPMWs&callback=initMap">
         </script>
@@ -26,42 +28,44 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="row">
                 <!-- Left Side DIV -->
-                <div class="col-3">
+                <div class="col-sm-3">
                     <div class="row">
-                        <!-- SEARCH FIELD -->
-                        <div class="input-group" style="margin-left: 1rem; margin-top: 1rem;">
-                            <input type="text" class="form-control" placeholder="Město">
-                            <span class="input-group-btn">
-                                <button class="btn btn-secondary" type="button">Hledat</button>
-                            </span>
+                        <!-- SEARCH FIELD -->    
+                        <div class="btn-group" role="group" aria-label="Basic example" style="width: 28rem; margin: 1rem; align-content: center;">
+                            <button type="button" id="czswitch" class="btn btn-primary" onclick='languageSwitcher("cz");'>Česky</button>
+                            <button type="button" id="enswitch" class="btn btn-secondary" onclick='languageSwitcher("en")'>Anglicky</button>
                         </div>
-                        <!-- Current Weather State -->
-                        <div class="card" id="weather-main-card" style="width: 30rem;margin-left: 1rem; margin-top: 1rem; padding: 1rem; background-color: #023e58; color:white">
-                            <img class="card-img-top current-weather-image" src="..." alt="Card image cap">
-                            <div class="card-block">
-                                <h4 class="card-title current-weather-location">Error</h4>
-                                <p class="card-text current-weather-description"></p>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item current-weather-temperature" style="background-color: #023e58">Temp</li>
-                                <li class="list-group-item current-weather-wind" style="background-color: #023e58">Wind</li>
-                                <li class="list-group-item" style="background-color: #023e58">Sunrise: , sunset: </li>
-                            </ul>
-                            <div class="card-block">
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
+                        <div class="input-group" style="margin-left: 1rem; margin-top: 1rem;">
+                            <input type="text" class="form-control" id="input-value" placeholder="Město">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" id="search-button" type="button">Vybrat</button>
+                            </span>
+
+                        </div>
+                        <select multiple class="form-control" id="naseptavac">
+                        </select>
+                    </div>
+                    <!-- Current Weather State -->
+                    <div class="row">
+                        <div id="accordion" role="tablist" style="width: 29rem; margin-left: 1rem; margin-top: 1rem; padding: 1rem;">
+
+
+                        </div>
+                        <div id="accordionF" role="tablist" style="width: 29rem; margin-left: 1rem; margin-top: 1rem; padding: 1rem;">
+
+
                         </div>
                     </div>
                 </div>
 
                 <!-- DIV with subdiv MAP -->
-                <div class="col-9">
+                <div class="col-sm-9">
                     <div id="map" style="height: 100vh">
                         <!-- MAP WOULD BE HERE-->
                     </div>
                 </div>
-            </div>
+            </div            
         </div>
+
     </body>
 </html>
